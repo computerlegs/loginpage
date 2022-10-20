@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Open Sans", Arial;
+}
+.logo {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display:inline-block;
+}
+.loginbox-container {
+    background-color: #d8e2f4;
+    padding: 30px;
+    border-radius: 8px; 
+    margin: 30px auto;
+    max-width: 600px;
+}
+.loginbox-box{
+    width:100%;
+    display:flex;
+}
+.leftloginbox {
+    width: 50%;
+}
+.rightloginbox {
+    width: 50%;
+    background-image:url("login-background.jpg");
+    background-size: cover; 
+    border-radius: 7px;
+}
+p {
+    margin-bottom: 10px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+input {
+    border:0px;
+    border-radius: 7px;
+    padding:10px;
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0px;
+    background-color: lightgray;
+    border-radius: 7px;
+  }
+button:hover {
+    background-color:grey;
+}
+@media only screen and (max-width: 700px){
+    .rightloginbox {
+      display:none;
+      }
+    .leftloginbox {
+        width: 100%;
+    }
+    .loginbox-container {
+        max-width:300px;
+    }
+  }
+
+/ example code
+right part position fixed, z index -200, opacity.
+left part width 100 vw, background colour unset, opacity
+/
+
