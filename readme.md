@@ -1,7 +1,10 @@
-# Heading Big
-### Heading Small
+# Login Page
 
-Normal text
+## Coding Exercise  
+
+Demo screenshot below.
+
+![Demo screenshot](screenshot.PNG)
 
 *This is italic*
 
@@ -19,6 +22,12 @@ Normal text
     like: this;
 }
 ```
+Lets have a line break  
+Right here
+
+Lets do the double line break
+
+Here
 
 
 | Table | Table|
